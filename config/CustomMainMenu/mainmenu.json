@@ -1,0 +1,153 @@
+{
+    "images":
+    {
+
+		"logo":
+        {
+            "image" : "mainmenu:textures/logo.png",
+            "posX" : -458,
+            "posY" : 0,
+            "width" : 900,
+            "height" : 240,
+            "alignment" : "top_center"
+        }
+	
+	},
+    
+    "buttons":
+    {     
+       
+		"singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "hoverText" : "Lonely, I'm Mr. Lonely",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -343,
+            "posY" : -40,
+            "width" : 196,
+            "height" : 30,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },		
+
+		"multiplayer":
+        {
+            "text" : "menu.multiplayer",			
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -343,
+            "posY" : -10,
+            "width" : 196,
+            "height" : 30,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+               
+		"options":
+        {
+            "text" : "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438",
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -343,
+            "posY" : 30,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		        
+		"language":
+        {
+            "text" : "\u042f\u0437\u044b\u043a",
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -343,
+            "posY" : 50,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,			
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+                    
+        "quit":
+        {
+            "text" : "menu.quit",
+			"normalTextColor" : 6684847,
+			"hoverTextColor" : 6684847,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -343,
+            "posY" : 70,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "right_center",
+			"hoverText" : "\u041d\u0435\u0435\u0435\u0442\u0021 \u0422\u044b \u0441\u043e\u0432\u0435\u0440\u0448\u0430\u0435\u0448\u044c \u043e\u0448\u0438\u0431\u043a\u0443\u0021",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+		
+        "mods":
+        {
+            "text" : "\u041c\u043e\u0434\u044b (#modsloaded#/#modsactive#)",
+			"normalTextColor" : 6710886,
+			"hoverTextColor" : 3125670,
+			"texture" : "mainmenu:textures/btn.png",
+            "posX" : -343,
+            "posY" : 100,
+            "width" : 196,
+            "height" : 20,
+			imageWidth : 100,
+			imageHeight : 50,
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        }
+	},
+    
+    "texts":
+    {
+        
+    },
+    
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:textures/bg.png",
+			"mode" : "stretch"
+		}
+    }
+}
